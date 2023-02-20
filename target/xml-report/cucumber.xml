@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="20.626">
+    <testcase classname="User tests the searching results" name="TC001 User makes different searchings and tests the results" time="9.842">
+        <system-out><![CDATA[Given User goes to "AmazonUrl" home page....................................passed
+Then User makes searching for "iphone"......................................passed
+Then User waits 2 minutes...................................................passed
+And User tests whether the results contains "iphone"........................passed
+And User closes driver......................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="User tests the searching results" name="TC001 User makes different searchings and tests the results 2" time="10.577">
+        <system-out><![CDATA[Given User goes to "AmazonUrl" home page....................................passed
+Then User makes searching for "citizen".....................................passed
+Then User waits 2 minutes...................................................passed
+And User tests whether the results contains "citizen".......................passed
+And User closes driver......................................................passed
+]]></system-out>
+    </testcase>
+</testsuite>
